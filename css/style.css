@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-bg-color: #2E2E2E;
+    --secondary-bg-color:#3A3A3A;
+    --gradient-bg-color:linear-gradient(90deg, rgb(32, 28, 28) 0%, rgb(46, 46, 46) 53%, rgb(11, 9, 9) 100%);
+
+    --primary-txt-color:#FC804D;
+    --secondary-txt-color:white; 
+}
+
+
+.main-body{
+    height: 100vh;
+    background-color: var(--primary-bg-color);
+}
+
+h1{
+    color: var(--secondary-txt-color);
+}
+
+p{
+    color: var(--primary-color);
+}
